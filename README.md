@@ -1,2 +1,2 @@
-# Estudiodainformatica
- Repositório1
+# Estúdio da informática
+ Repositório 1
