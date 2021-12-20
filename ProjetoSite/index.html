@@ -30,14 +30,15 @@
 
 <center><img src="images/form.png" height="50px" width="50px"></img></center>
 
-<form method="post">
+<form method="post" action="" name="cadstro">
     <fieldset><legend>Dados Pessoais</legend>
-    <label for id="inome"> Nome/Name: <input type="text" id="inome"/>
-    <label for id="iendereco"> Endereço/Adress: <input type="text" id="iendereco"/>
-    <label for id="inumero"> Número/Number: <input type="number" id="inumero"/>
-    </fieldset>
+    <label for id="inome"/> Nome/Name: <input type="text" size="80" id="inome" name="Nome" placeholder="Nome completo" maxlength="50"/>
+    <label for id="iendereco"/> Endereço/Adress: <input type="text" size="60" id="iendereco" name="Endereco"  maxlength="60"/> <br><br>
+    <label for id="inumero"/> Número/Number: <input type="number" id="inumero" name="Numero" min="1" maxlength="15"/>
+    <label for="icomplemento"/> Complemento/Complement: <input type="text" id="icomplemento" name="Complemento" maxlength="30"/>
+    <label for="iemail"/> Email: <input type="Email" id="iemail" name="Email" maxlength="30"/>
     
-    <fieldset><legend>
+    
 </form>
 
 </body>
